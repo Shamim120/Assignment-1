@@ -1,0 +1,54 @@
+body{
+    font-family: 'Josefin Sans', sans-serif;
+font-family: 'Poppins', sans-serif;
+}
+h1{
+    font-size: 60px;
+    font-family: Cambria;
+}
+.frist-pera{
+    width: 60%;
+    display: flex;
+    padding-left: 150px;
+    display: inline-flex;
+}
+.missioncolor{
+    color: indigo;
+}
+.frist-pera img{
+    width: 60%;
+    padding-left: 300px;
+}
+.explore-now {
+    text-decoration: none;
+background-image: linear-gradient(rgb(236, 5, 113), rgb(84, 5, 231));
+padding: 10px 40px;
+font-weight: 700;
+color: white;
+border-radius: 20px;
+}
+.mission-h1{
+  font-family: josefin sans;
+  text-align: center;
+}
+.color2022{
+    color: indigo;
+}
+.viss{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.card{
+    flex: 1 1 21rem;
+    margin: 10px 14px;
+   
+  background: rgb(236, 223, 223);
+  box-shadow: 0 0 2px ghostwhite;
+  padding-left: 20px;
+  padding-right: 150px;
+  border-radius: 15px;
+}
+.card img{
+    width: 30%;
+}
