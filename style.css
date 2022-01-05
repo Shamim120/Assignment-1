@@ -52,3 +52,17 @@ border-radius: 20px;
 .card img{
     width: 30%;
 }
+.pera3rd{
+    width: 70%;
+    display: flex;
+    padding-left: 90px;
+    padding-top: 80px;
+    background-image: url(images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-size: 200px;
+    background-position-x: left;
+  
+}
+.pera3rd img{
+width: 80%;
+}
