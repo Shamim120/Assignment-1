@@ -2,15 +2,26 @@ body{
     font-family: 'Josefin Sans', sans-serif;
 font-family: 'Poppins', sans-serif;
 }
+#head1{
+    border-left: 10px;
+}
+#stay{
+    border: 50px;
+}
 h1{
     font-size: 60px;
     font-family: Cambria;
+}
+.stay{
+   border-left: 6px solid indigo;
+   border-radius: 4px;
 }
 .frist-pera{
     width: 60%;
     display: flex;
     padding-left: 150px;
     display: inline-flex;
+    margin-left: 250px;
 }
 .missioncolor{
     color: indigo;
@@ -42,12 +53,17 @@ border-radius: 20px;
 .card{
     flex: 1 1 21rem;
     margin: 10px 14px;
-   
-  background: rgb(236, 223, 223);
+   background: rgb(236, 223, 223);
   box-shadow: 0 0 2px ghostwhite;
   padding-left: 20px;
   padding-right: 150px;
   border-radius: 15px;
+}
+#card1{
+    background-color: lightblue;
+}
+#card2{
+    background-color: lightpink;
 }
 .card img{
     width: 30%;
@@ -60,9 +76,63 @@ border-radius: 20px;
     background-image: url(images/shapes/shape-1.png);
     background-repeat: no-repeat;
     background-size: 200px;
+    background-position: center;
     background-position-x: left;
+    margin-left: 250px;
+
+    
   
 }
 .pera3rd img{
 width: 80%;
 }
+.project-pera{
+    width: 70%;
+    display: flex;
+    padding-left: 90px;
+    padding-top: 80px;
+    background-image: url(images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-size: 200px;
+    background-position-x: bottom;
+    background-position: right;
+    margin-left: 250px;
+}
+.project-pera img{
+width: 80%;
+
+}
+.new-skill{
+    color: indigo;
+}
+.skill{
+    text-align: center;
+    padding-top: 100px;
+}
+.web-colo{
+    color: indigo;
+}
+.developr{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    margin-left: 250px;
+
+
+}
+.developr img{
+    width: 90%;
+}
+footer{
+    background-color: black;
+    margin-top: 120px;
+    text-align: center;
+    color: azure;
+    padding-top: 20px;
+    padding-bottom: 7px;
+}
+.fo-te{
+    color: coral;
+}
+
+
